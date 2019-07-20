@@ -1,8 +1,106 @@
-section{
+.main-section{
     height: 80vh;
     
-    background: url("../img/pattimg.jpg");
+    background: url("../img/image3.jpg");
     background-size: 100% auto;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: center;
+}
+
+.container{
+     overflow: auto;
+}
+.contenido{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    transform: translateX(100%, 100%);
+
+}
+.writetext{
+    color:whitesmoke;
+}
+.width-auto{
+    width: 100%;
+    opacity:0.8; 
+}
+.navbar{
+    background: transparent !important;
+      position: fixed;
+  width: 100%
+  
+}
+.pink{
+    background: url("../img/pinkwall.jpg");
+    text-align: center;
+
+}
+.pink2{
+    background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+html {
+    display: block;
+    color: -internal-root-color;
+    scroll-behavior: smooth;
+}
+body, input, select, textarea {
+    font-family: Arial,sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    line-height: 1.5em;
+    color: #666;
+}
+
+@media screen and (max-width: 960px)
+body:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(64,64,64,0.5);
+    opacity: 0;
+    z-index: -1;
+    -moz-transition: opacity .5s ease,z-index .5s;
+    -webkit-transition: opacity .5s ease,z-index .5s;
+    -ms-transition: opacity .5s ease,z-index .5s;
+    transition: opacity .5s ease,z-index .5s;
+}
+ul.plain {
+    line-height: 0;
+    white-space: nowrap;
+    height: 23px;
+    display: inline-flex;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.inner{
+    background: rgba(0,0,0,0.7) !important;
+    padding: 50px 20px;
+    color: white;
 }

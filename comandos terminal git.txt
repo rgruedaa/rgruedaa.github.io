@@ -1,0 +1,43 @@
+comandos por terminal
+
+pwd // saber en que ruta nos encontramos.
+ls // archivos de todas partes
+ls -a // archivos ocultos
+ls -al // podemos ver todos los archivos quien los crea y cuando.
+cd documents // entrar a otra carpeta
+cd .. // salir de la carpeta en la que me encuentro
+mkdir nombre_carpeta_nueva// crear una carpeta nueva
+touch index.html styles.css main.js // crear archivos en la carpeta seleccionada
+git init // iniciar GIT
+git status // ver estatus de los archivos
+git add index.html // agregar el archivo a GIT
+git commit -m "Fisrt commit" // mensaje 
+git add . // agrega todos los archivos al tracking (listos para guardar)
+git reset nombre_archivo // quita el archivo de staging area (pasa al area de trabajo)
+git push
+git commit -s -m "guardando todos los archivos
+code . // abre acrhivo en visual studio code para iniciar desde la carpeta que estamos 
+git diff // compara el commit vd el working area
+git checkout numero_guardado // te regresa al punto de guardado (branch temporal) para revisar algo en especifico
+git checkout master // te regresa a la versión actual.
+git checkout -b otra-rama // desde el punto que quieres regresar y comenzar una rama nueva.
+git checkout otra-rama // muestra lo que hay en esa rama.
+git checkout merge new_master // agrega los cambios de una rama distinta en la principal.
+git log // para ver los commits que se han hecho
+$ git remote add origin https://github.com/rgruedaa/clase_git.git // agregar al repositorio
+$ git push -u origin master // agregar al repositorio
+git clone https://github.com/Mikeermz/structure_batch_5.git // clonar un repositorio en especifico 
+git fetch --all // muestra en la computadora lo que esta actualizado en el repositorio
+git pull // trae a la computadora lo que esta actualizado en el repositorio
+git remote -v // ver que quien es el dueño de los archivos en el repositorio.
+git remote add upstream https://github.com/Mikeermz/structure_batch_5.git// apuntar a un servidor remoto
+git ferch upstream //trae los cambios pero no actualiza
+git merge upstream/master  // trae los cambios en el repositario local
+
+
+tarea // git a los repositrios de los archivos que tenemos
+crear una cuenta de git HUB
+
+
+
+
